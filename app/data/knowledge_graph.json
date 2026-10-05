@@ -1,0 +1,569 @@
+{
+  "nodes": [
+    {
+      "id": "domain_cs",
+      "label": "计算机科学",
+      "type": "领域",
+      "summary": "覆盖人工智能、数据挖掘、软件工程、人机交互等典型研究方向。",
+      "keywords": ["人工智能", "软件工程", "数据挖掘"]
+    },
+    {
+      "id": "domain_finance",
+      "label": "金融学",
+      "type": "领域",
+      "summary": "覆盖金融科技、风险管理、量化分析与智能投顾等研究方向。",
+      "keywords": ["金融科技", "风险管理", "量化分析"]
+    },
+    {
+      "id": "domain_education",
+      "label": "教育学",
+      "type": "领域",
+      "summary": "覆盖教育技术、学习分析、个性化学习与教学评价等方向。",
+      "keywords": ["教育技术", "学习分析", "个性化学习"]
+    },
+    {
+      "id": "domain_medicine",
+      "label": "医学信息学",
+      "type": "领域",
+      "summary": "覆盖医学影像、临床决策支持、电子病历分析与健康管理。",
+      "keywords": ["医学影像", "临床决策", "电子病历"]
+    },
+    {
+      "id": "domain_me",
+      "label": "机械工程",
+      "type": "领域",
+      "summary": "覆盖智能制造、设备预测性维护、数字孪生与工业视觉检测。",
+      "keywords": ["智能制造", "预测性维护", "数字孪生"]
+    },
+    {
+      "id": "domain_env",
+      "label": "环境科学",
+      "type": "领域",
+      "summary": "覆盖碳排放监测、环境风险评估、遥感分析与绿色治理。",
+      "keywords": ["碳排放", "环境监测", "遥感"]
+    },
+    {
+      "id": "domain_management",
+      "label": "管理科学",
+      "type": "领域",
+      "summary": "覆盖运营优化、供应链管理、用户行为分析与决策支持。",
+      "keywords": ["供应链", "决策支持", "运营优化"]
+    },
+    {
+      "id": "major_se",
+      "label": "软件工程",
+      "type": "专业",
+      "summary": "强调系统设计、工程实现、测试验证与可维护性。",
+      "keywords": ["系统开发", "工程实践", "测试"]
+    },
+    {
+      "id": "major_ai",
+      "label": "人工智能",
+      "type": "专业",
+      "summary": "强调模型能力、数据分析、推理与智能应用落地。",
+      "keywords": ["机器学习", "推理", "智能应用"]
+    },
+    {
+      "id": "major_fintech",
+      "label": "金融科技",
+      "type": "专业",
+      "summary": "连接金融业务场景与数据智能技术。",
+      "keywords": ["智能投顾", "风险控制", "数据建模"]
+    },
+    {
+      "id": "major_edtech",
+      "label": "教育技术学",
+      "type": "专业",
+      "summary": "关注教学场景中的技术增强与学习效果评价。",
+      "keywords": ["教学支持", "学习行为", "教育平台"]
+    },
+    {
+      "id": "major_biomed",
+      "label": "生物医学工程",
+      "type": "专业",
+      "summary": "连接医学数据、智能算法与辅助诊疗场景。",
+      "keywords": ["影像分析", "医疗数据", "辅助诊断"]
+    },
+    {
+      "id": "major_industry",
+      "label": "智能制造工程",
+      "type": "专业",
+      "summary": "聚焦生产过程优化、设备状态感知与工业智能系统。",
+      "keywords": ["工业互联网", "设备监测", "制造优化"]
+    },
+    {
+      "id": "major_envdata",
+      "label": "环境数据科学",
+      "type": "专业",
+      "summary": "聚焦环境监测数据、空间分析与治理辅助。",
+      "keywords": ["环境监测", "空间数据", "治理分析"]
+    },
+    {
+      "id": "major_ba",
+      "label": "商业分析",
+      "type": "专业",
+      "summary": "连接数据分析、管理决策与业务优化问题。",
+      "keywords": ["业务分析", "运营决策", "数据驱动"]
+    },
+    {
+      "id": "org_uibe",
+      "label": "对外经济贸易大学",
+      "type": "机构",
+      "summary": "系统论文与演示场景对应的应用背景机构。",
+      "keywords": ["经济管理", "金融科技", "数据智能"]
+    },
+    {
+      "id": "org_tsinghua",
+      "label": "清华大学",
+      "type": "机构",
+      "summary": "用于承载跨学科科研主题的高校节点。",
+      "keywords": ["人工智能", "工程", "交叉学科"]
+    },
+    {
+      "id": "org_pku",
+      "label": "北京大学",
+      "type": "机构",
+      "summary": "用于承载教育、医学与管理方向的高校节点。",
+      "keywords": ["医学信息", "教育研究", "管理科学"]
+    },
+    {
+      "id": "org_cas",
+      "label": "中国科学院",
+      "type": "机构",
+      "summary": "用于承载环境、算法与复杂系统研究场景。",
+      "keywords": ["环境科学", "算法", "复杂系统"]
+    },
+    {
+      "id": "author_student_a",
+      "label": "学生A",
+      "type": "作者",
+      "summary": "计算机与智能系统方向本科毕业设计学生代称。",
+      "keywords": ["软件工程", "知识图谱", "大模型"]
+    },
+    {
+      "id": "author_teacher_b",
+      "label": "教师B",
+      "type": "作者",
+      "summary": "知识图谱与推荐系统方向教师代称。",
+      "keywords": ["知识图谱", "推荐系统", "可解释性"]
+    },
+    {
+      "id": "author_teacher_c",
+      "label": "教师C",
+      "type": "作者",
+      "summary": "教育技术与学习分析方向教师代称。",
+      "keywords": ["学习分析", "教育平台", "教学评价"]
+    },
+    {
+      "id": "author_teacher_d",
+      "label": "教师D",
+      "type": "作者",
+      "summary": "医学影像与智能诊疗方向教师代称。",
+      "keywords": ["医学影像", "辅助诊断", "临床数据"]
+    },
+    {
+      "id": "author_teacher_e",
+      "label": "教师E",
+      "type": "作者",
+      "summary": "智能制造与工业数据分析方向教师代称。",
+      "keywords": ["智能制造", "设备监测", "工业视觉"]
+    },
+    {
+      "id": "kw_llm",
+      "label": "大语言模型",
+      "type": "关键词",
+      "summary": "支撑文本理解、生成、问答与任务编排的核心智能能力。",
+      "keywords": ["LLM", "自然语言处理", "智能体"]
+    },
+    {
+      "id": "kw_kg",
+      "label": "知识图谱",
+      "type": "关键词",
+      "summary": "组织论文、机构、关键词、方法与方向关系的结构化网络。",
+      "keywords": ["图谱", "知识组织", "实体关系"]
+    },
+    {
+      "id": "kw_recommendation",
+      "label": "推荐系统",
+      "type": "关键词",
+      "summary": "用于主题匹配、排序与候选题目筛选的核心技术方向。",
+      "keywords": ["推荐", "排序", "召回"]
+    },
+    {
+      "id": "kw_agent",
+      "label": "科研智能体",
+      "type": "关键词",
+      "summary": "整合大模型、工具调用、上下文记忆与规划能力的代理系统。",
+      "keywords": ["智能体", "任务规划", "工具调用"]
+    },
+    {
+      "id": "kw_timeseries",
+      "label": "时间序列分析",
+      "type": "关键词",
+      "summary": "适用于金融风控、设备监测与环境预测的基础分析方法。",
+      "keywords": ["预测", "趋势分析", "监测"]
+    },
+    {
+      "id": "kw_cv",
+      "label": "计算机视觉",
+      "type": "关键词",
+      "summary": "适用于医学影像、工业检测与遥感识别等场景。",
+      "keywords": ["图像识别", "检测", "视觉分析"]
+    },
+    {
+      "id": "kw_nlp",
+      "label": "自然语言处理",
+      "type": "关键词",
+      "summary": "适用于文本分类、问答、摘要与病历分析等任务。",
+      "keywords": ["文本分析", "问答", "摘要"]
+    },
+    {
+      "id": "kw_iot",
+      "label": "物联网数据",
+      "type": "关键词",
+      "summary": "适用于设备监测、环境采集与实时状态感知。",
+      "keywords": ["传感器", "设备数据", "实时监测"]
+    },
+    {
+      "id": "kw_medical",
+      "label": "医学影像",
+      "type": "关键词",
+      "summary": "支撑疾病筛查、图像分割与辅助诊疗分析。",
+      "keywords": ["CT", "MRI", "图像分割"]
+    },
+    {
+      "id": "kw_learning",
+      "label": "学习行为分析",
+      "type": "关键词",
+      "summary": "通过日志、作业与互动数据评估学习状态与教学效果。",
+      "keywords": ["学习轨迹", "教学评价", "学生画像"]
+    },
+    {
+      "id": "kw_supply",
+      "label": "供应链优化",
+      "type": "关键词",
+      "summary": "面向库存、配送与协同计划的管理优化问题。",
+      "keywords": ["库存优化", "运营管理", "调度"]
+    },
+    {
+      "id": "kw_carbon",
+      "label": "碳排放评估",
+      "type": "关键词",
+      "summary": "面向环境监测、碳核算与绿色治理的分析问题。",
+      "keywords": ["碳核算", "绿色治理", "环境风险"]
+    },
+    {
+      "id": "method_graph",
+      "label": "图结构中心性分析",
+      "type": "方法",
+      "summary": "衡量实体与研究方向在知识网络中的重要程度。",
+      "keywords": ["中心性", "PageRank", "图算法"]
+    },
+    {
+      "id": "method_similarity",
+      "label": "多特征融合排序",
+      "type": "方法",
+      "summary": "综合兴趣匹配、热度、可实现性与契合度进行排序。",
+      "keywords": ["排序", "多特征", "推荐算法"]
+    },
+    {
+      "id": "method_rag",
+      "label": "检索增强生成",
+      "type": "方法",
+      "summary": "通过检索外部知识提升问答与生成结果的准确性。",
+      "keywords": ["RAG", "文档检索", "生成"]
+    },
+    {
+      "id": "method_gnn",
+      "label": "图神经网络",
+      "type": "方法",
+      "summary": "适用于实体关系建模、节点表示学习与图谱预测任务。",
+      "keywords": ["GNN", "表示学习", "关系推理"]
+    },
+    {
+      "id": "method_transformer",
+      "label": "Transformer编码",
+      "type": "方法",
+      "summary": "适用于文本理解、序列建模和多模态表征。",
+      "keywords": ["Transformer", "编码", "序列建模"]
+    },
+    {
+      "id": "method_federated",
+      "label": "联邦学习",
+      "type": "方法",
+      "summary": "适用于多机构协同建模且数据不能集中共享的场景。",
+      "keywords": ["隐私保护", "协同训练", "分布式学习"]
+    },
+    {
+      "id": "method_digital_twin",
+      "label": "数字孪生建模",
+      "type": "方法",
+      "summary": "用于设备状态映射、过程仿真与工业场景优化。",
+      "keywords": ["数字孪生", "过程建模", "工业系统"]
+    },
+    {
+      "id": "topic_ai_edu",
+      "label": "人工智能赋能教育",
+      "type": "研究方向",
+      "summary": "围绕教学支持、学习分析与个性化学习服务展开。",
+      "keywords": ["教育智能化", "学习分析", "个性化教学"]
+    },
+    {
+      "id": "topic_fintech",
+      "label": "金融科技风险分析",
+      "type": "研究方向",
+      "summary": "关注金融数据智能、风险识别与决策支持。",
+      "keywords": ["金融科技", "风控", "智能决策"]
+    },
+    {
+      "id": "topic_medical_ai",
+      "label": "医学智能诊疗支持",
+      "type": "研究方向",
+      "summary": "关注病历理解、医学影像分析与临床辅助决策。",
+      "keywords": ["辅助诊断", "病历分析", "医学影像"]
+    },
+    {
+      "id": "topic_smart_manufacturing",
+      "label": "智能制造与设备预测维护",
+      "type": "研究方向",
+      "summary": "关注工业设备状态预测、异常诊断与工艺优化。",
+      "keywords": ["预测性维护", "工业数据", "设备诊断"]
+    },
+    {
+      "id": "topic_env_governance",
+      "label": "环境监测与绿色治理",
+      "type": "研究方向",
+      "summary": "关注环境数据采集、碳排放监测与风险识别。",
+      "keywords": ["环境监测", "碳排放", "绿色治理"]
+    },
+    {
+      "id": "topic_business_analytics",
+      "label": "数据驱动运营决策",
+      "type": "研究方向",
+      "summary": "围绕供应链、运营效率与业务预测展开分析。",
+      "keywords": ["运营分析", "供应链", "决策支持"]
+    },
+    {
+      "id": "paper_llm_topic",
+      "label": "大语言模型驱动的科研选题辅助系统设计",
+      "type": "论文",
+      "year": 2026,
+      "summary": "围绕科研选题辅助、知识图谱与交互式推荐展开的系统论文。",
+      "keywords": ["大语言模型", "科研选题", "知识图谱", "科研智能体"]
+    },
+    {
+      "id": "paper_kg_recommendation",
+      "label": "知识图谱增强的科研选题推荐方法",
+      "type": "论文",
+      "year": 2025,
+      "summary": "研究知识图谱在选题推荐中的可解释性价值与结构化优势。",
+      "keywords": ["知识图谱", "推荐系统", "可解释性"]
+    },
+    {
+      "id": "paper_fintech_llm",
+      "label": "金融风控场景下的大模型辅助分析",
+      "type": "论文",
+      "year": 2025,
+      "summary": "探讨大模型在金融文本理解、风控分析与报告生成中的应用边界。",
+      "keywords": ["金融科技", "大模型", "风险控制"]
+    },
+    {
+      "id": "paper_edu_analytics",
+      "label": "面向本科教学平台的学习行为分析与预警",
+      "type": "论文",
+      "year": 2025,
+      "summary": "基于学习日志与课程行为数据构建学习预警与课程支持系统。",
+      "keywords": ["学习行为分析", "教育平台", "教学预警"]
+    },
+    {
+      "id": "paper_medical_nlp",
+      "label": "电子病历文本理解与临床决策支持研究",
+      "type": "论文",
+      "year": 2025,
+      "summary": "围绕病历命名实体识别、摘要生成和辅助决策展开。",
+      "keywords": ["电子病历", "自然语言处理", "临床决策"]
+    },
+    {
+      "id": "paper_medical_cv",
+      "label": "医学影像智能分割与辅助诊断方法",
+      "type": "论文",
+      "year": 2024,
+      "summary": "研究深度学习在医学图像分割与病灶识别中的落地方式。",
+      "keywords": ["医学影像", "计算机视觉", "辅助诊断"]
+    },
+    {
+      "id": "paper_industry_maintenance",
+      "label": "工业设备多源数据融合的预测性维护系统",
+      "type": "论文",
+      "year": 2025,
+      "summary": "融合传感器、工单与时序数据实现设备健康状态预测。",
+      "keywords": ["预测性维护", "物联网数据", "时间序列分析"]
+    },
+    {
+      "id": "paper_digital_twin",
+      "label": "数字孪生驱动的生产过程监测与优化",
+      "type": "论文",
+      "year": 2024,
+      "summary": "通过数字孪生模型实现生产过程状态映射与调优。",
+      "keywords": ["数字孪生", "智能制造", "过程优化"]
+    },
+    {
+      "id": "paper_env_carbon",
+      "label": "遥感与监测数据融合的碳排放评估研究",
+      "type": "论文",
+      "year": 2025,
+      "summary": "围绕区域碳排放监测、环境评估与绿色治理展开。",
+      "keywords": ["碳排放评估", "遥感", "环境监测"]
+    },
+    {
+      "id": "paper_supply_chain",
+      "label": "供应链运营优化中的需求预测与协同决策",
+      "type": "论文",
+      "year": 2025,
+      "summary": "面向供应链库存、需求预测与跨部门协同分析的管理科学研究。",
+      "keywords": ["供应链优化", "运营决策", "需求预测"]
+    },
+    {
+      "id": "paper_cross_domain_rag",
+      "label": "跨学科知识检索增强的科研问答系统",
+      "type": "论文",
+      "year": 2026,
+      "summary": "面向多学科论文与知识片段构建检索增强问答系统。",
+      "keywords": ["检索增强生成", "科研问答", "跨学科"]
+    }
+  ],
+  "edges": [
+    { "source": "major_se", "target": "domain_cs", "relation": "属于" },
+    { "source": "major_ai", "target": "domain_cs", "relation": "属于" },
+    { "source": "major_fintech", "target": "domain_finance", "relation": "属于" },
+    { "source": "major_edtech", "target": "domain_education", "relation": "属于" },
+    { "source": "major_biomed", "target": "domain_medicine", "relation": "属于" },
+    { "source": "major_industry", "target": "domain_me", "relation": "属于" },
+    { "source": "major_envdata", "target": "domain_env", "relation": "属于" },
+    { "source": "major_ba", "target": "domain_management", "relation": "属于" },
+
+    { "source": "topic_ai_edu", "target": "domain_education", "relation": "关联领域" },
+    { "source": "topic_ai_edu", "target": "domain_cs", "relation": "交叉领域" },
+    { "source": "topic_fintech", "target": "domain_finance", "relation": "关联领域" },
+    { "source": "topic_fintech", "target": "domain_cs", "relation": "交叉领域" },
+    { "source": "topic_medical_ai", "target": "domain_medicine", "relation": "关联领域" },
+    { "source": "topic_medical_ai", "target": "domain_cs", "relation": "交叉领域" },
+    { "source": "topic_smart_manufacturing", "target": "domain_me", "relation": "关联领域" },
+    { "source": "topic_smart_manufacturing", "target": "domain_cs", "relation": "交叉领域" },
+    { "source": "topic_env_governance", "target": "domain_env", "relation": "关联领域" },
+    { "source": "topic_env_governance", "target": "domain_management", "relation": "交叉领域" },
+    { "source": "topic_business_analytics", "target": "domain_management", "relation": "关联领域" },
+    { "source": "topic_business_analytics", "target": "domain_finance", "relation": "交叉领域" },
+
+    { "source": "org_uibe", "target": "domain_finance", "relation": "研究覆盖" },
+    { "source": "org_uibe", "target": "domain_management", "relation": "研究覆盖" },
+    { "source": "org_uibe", "target": "domain_cs", "relation": "研究覆盖" },
+    { "source": "org_tsinghua", "target": "domain_cs", "relation": "研究覆盖" },
+    { "source": "org_tsinghua", "target": "domain_me", "relation": "研究覆盖" },
+    { "source": "org_pku", "target": "domain_education", "relation": "研究覆盖" },
+    { "source": "org_pku", "target": "domain_medicine", "relation": "研究覆盖" },
+    { "source": "org_cas", "target": "domain_env", "relation": "研究覆盖" },
+    { "source": "org_cas", "target": "domain_cs", "relation": "研究覆盖" },
+
+    { "source": "author_student_a", "target": "org_uibe", "relation": "培养" },
+    { "source": "author_teacher_b", "target": "org_uibe", "relation": "任职" },
+    { "source": "author_teacher_c", "target": "org_pku", "relation": "任职" },
+    { "source": "author_teacher_d", "target": "org_pku", "relation": "任职" },
+    { "source": "author_teacher_e", "target": "org_tsinghua", "relation": "任职" },
+
+    { "source": "paper_llm_topic", "target": "author_student_a", "relation": "撰写" },
+    { "source": "paper_llm_topic", "target": "author_teacher_b", "relation": "指导" },
+    { "source": "paper_kg_recommendation", "target": "author_teacher_b", "relation": "作者" },
+    { "source": "paper_fintech_llm", "target": "author_teacher_b", "relation": "作者" },
+    { "source": "paper_edu_analytics", "target": "author_teacher_c", "relation": "作者" },
+    { "source": "paper_medical_nlp", "target": "author_teacher_d", "relation": "作者" },
+    { "source": "paper_medical_cv", "target": "author_teacher_d", "relation": "作者" },
+    { "source": "paper_industry_maintenance", "target": "author_teacher_e", "relation": "作者" },
+    { "source": "paper_digital_twin", "target": "author_teacher_e", "relation": "作者" },
+    { "source": "paper_env_carbon", "target": "org_cas", "relation": "来源机构" },
+    { "source": "paper_supply_chain", "target": "org_uibe", "relation": "来源机构" },
+    { "source": "paper_cross_domain_rag", "target": "author_teacher_b", "relation": "作者" },
+    { "source": "paper_cross_domain_rag", "target": "org_tsinghua", "relation": "合作机构" },
+
+    { "source": "paper_llm_topic", "target": "domain_cs", "relation": "属于" },
+    { "source": "paper_kg_recommendation", "target": "domain_cs", "relation": "属于" },
+    { "source": "paper_fintech_llm", "target": "domain_finance", "relation": "属于" },
+    { "source": "paper_edu_analytics", "target": "domain_education", "relation": "属于" },
+    { "source": "paper_medical_nlp", "target": "domain_medicine", "relation": "属于" },
+    { "source": "paper_medical_cv", "target": "domain_medicine", "relation": "属于" },
+    { "source": "paper_industry_maintenance", "target": "domain_me", "relation": "属于" },
+    { "source": "paper_digital_twin", "target": "domain_me", "relation": "属于" },
+    { "source": "paper_env_carbon", "target": "domain_env", "relation": "属于" },
+    { "source": "paper_supply_chain", "target": "domain_management", "relation": "属于" },
+    { "source": "paper_cross_domain_rag", "target": "domain_cs", "relation": "属于" },
+
+    { "source": "paper_llm_topic", "target": "topic_ai_edu", "relation": "服务场景" },
+    { "source": "paper_kg_recommendation", "target": "topic_ai_edu", "relation": "服务场景" },
+    { "source": "paper_fintech_llm", "target": "topic_fintech", "relation": "服务场景" },
+    { "source": "paper_edu_analytics", "target": "topic_ai_edu", "relation": "服务场景" },
+    { "source": "paper_medical_nlp", "target": "topic_medical_ai", "relation": "服务场景" },
+    { "source": "paper_medical_cv", "target": "topic_medical_ai", "relation": "服务场景" },
+    { "source": "paper_industry_maintenance", "target": "topic_smart_manufacturing", "relation": "服务场景" },
+    { "source": "paper_digital_twin", "target": "topic_smart_manufacturing", "relation": "服务场景" },
+    { "source": "paper_env_carbon", "target": "topic_env_governance", "relation": "服务场景" },
+    { "source": "paper_supply_chain", "target": "topic_business_analytics", "relation": "服务场景" },
+    { "source": "paper_cross_domain_rag", "target": "topic_ai_edu", "relation": "支持场景" },
+    { "source": "paper_cross_domain_rag", "target": "topic_medical_ai", "relation": "支持场景" },
+    { "source": "paper_cross_domain_rag", "target": "topic_fintech", "relation": "支持场景" },
+
+    { "source": "paper_llm_topic", "target": "kw_llm", "relation": "研究主题" },
+    { "source": "paper_llm_topic", "target": "kw_kg", "relation": "研究主题" },
+    { "source": "paper_llm_topic", "target": "kw_recommendation", "relation": "研究主题" },
+    { "source": "paper_llm_topic", "target": "kw_agent", "relation": "研究主题" },
+    { "source": "paper_kg_recommendation", "target": "kw_kg", "relation": "研究主题" },
+    { "source": "paper_kg_recommendation", "target": "kw_recommendation", "relation": "研究主题" },
+    { "source": "paper_fintech_llm", "target": "kw_llm", "relation": "研究主题" },
+    { "source": "paper_fintech_llm", "target": "kw_nlp", "relation": "研究主题" },
+    { "source": "paper_edu_analytics", "target": "kw_learning", "relation": "研究主题" },
+    { "source": "paper_edu_analytics", "target": "kw_recommendation", "relation": "研究主题" },
+    { "source": "paper_medical_nlp", "target": "kw_nlp", "relation": "研究主题" },
+    { "source": "paper_medical_nlp", "target": "kw_medical", "relation": "研究主题" },
+    { "source": "paper_medical_cv", "target": "kw_cv", "relation": "研究主题" },
+    { "source": "paper_medical_cv", "target": "kw_medical", "relation": "研究主题" },
+    { "source": "paper_industry_maintenance", "target": "kw_iot", "relation": "研究主题" },
+    { "source": "paper_industry_maintenance", "target": "kw_timeseries", "relation": "研究主题" },
+    { "source": "paper_digital_twin", "target": "kw_iot", "relation": "研究主题" },
+    { "source": "paper_digital_twin", "target": "kw_cv", "relation": "研究主题" },
+    { "source": "paper_env_carbon", "target": "kw_carbon", "relation": "研究主题" },
+    { "source": "paper_env_carbon", "target": "kw_timeseries", "relation": "研究主题" },
+    { "source": "paper_supply_chain", "target": "kw_supply", "relation": "研究主题" },
+    { "source": "paper_supply_chain", "target": "kw_timeseries", "relation": "研究主题" },
+    { "source": "paper_cross_domain_rag", "target": "kw_llm", "relation": "研究主题" },
+    { "source": "paper_cross_domain_rag", "target": "kw_nlp", "relation": "研究主题" },
+    { "source": "paper_cross_domain_rag", "target": "kw_agent", "relation": "研究主题" },
+
+    { "source": "paper_llm_topic", "target": "method_similarity", "relation": "采用方法" },
+    { "source": "paper_llm_topic", "target": "method_graph", "relation": "采用方法" },
+    { "source": "paper_kg_recommendation", "target": "method_graph", "relation": "采用方法" },
+    { "source": "paper_kg_recommendation", "target": "method_gnn", "relation": "采用方法" },
+    { "source": "paper_fintech_llm", "target": "method_transformer", "relation": "采用方法" },
+    { "source": "paper_edu_analytics", "target": "method_similarity", "relation": "采用方法" },
+    { "source": "paper_medical_nlp", "target": "method_transformer", "relation": "采用方法" },
+    { "source": "paper_medical_cv", "target": "method_transformer", "relation": "采用方法" },
+    { "source": "paper_industry_maintenance", "target": "method_similarity", "relation": "采用方法" },
+    { "source": "paper_digital_twin", "target": "method_digital_twin", "relation": "采用方法" },
+    { "source": "paper_env_carbon", "target": "method_federated", "relation": "采用方法" },
+    { "source": "paper_supply_chain", "target": "method_similarity", "relation": "采用方法" },
+    { "source": "paper_cross_domain_rag", "target": "method_rag", "relation": "采用方法" },
+    { "source": "paper_cross_domain_rag", "target": "method_transformer", "relation": "采用方法" },
+
+    { "source": "kw_kg", "target": "kw_recommendation", "relation": "增强" },
+    { "source": "kw_llm", "target": "kw_agent", "relation": "驱动" },
+    { "source": "kw_kg", "target": "method_graph", "relation": "依赖" },
+    { "source": "kw_recommendation", "target": "method_similarity", "relation": "依赖" },
+    { "source": "kw_llm", "target": "method_rag", "relation": "结合" },
+    { "source": "kw_nlp", "target": "method_transformer", "relation": "常用方法" },
+    { "source": "kw_iot", "target": "kw_timeseries", "relation": "产生数据" },
+    { "source": "kw_medical", "target": "kw_cv", "relation": "结合分析" },
+    { "source": "kw_learning", "target": "kw_recommendation", "relation": "支持个性化" },
+    { "source": "kw_supply", "target": "kw_timeseries", "relation": "依赖预测" },
+    { "source": "kw_carbon", "target": "kw_iot", "relation": "依赖监测" },
+    { "source": "method_digital_twin", "target": "topic_smart_manufacturing", "relation": "适用方向" },
+    { "source": "method_federated", "target": "topic_medical_ai", "relation": "适用方向" }
+  ]
+}

@@ -1,0 +1,715 @@
+/* ========================================
+   智能科研选题助手 - 响应式样式表
+   ======================================== */
+
+/* 大屏幕 (>1400px) */
+@media screen and (min-width: 1400px) {
+    :root {
+        --sidebar-width: 320px;
+    }
+    
+    .app-title {
+        font-size: 24px;
+    }
+    
+    .chat-history {
+        padding: 32px;
+    }
+    
+    .welcome-features {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* 中等屏幕 (992px - 1399px) */
+@media screen and (max-width: 1399px) and (min-width: 992px) {
+    :root {
+        --sidebar-width: 260px;
+    }
+    
+    .welcome-features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 平板设备 (768px - 991px) */
+@media screen and (max-width: 991px) {
+    :root {
+        --sidebar-width: 280px;
+    }
+    
+    .app-container {
+        position: relative;
+    }
+    
+    .main-content {
+        position: relative;
+    }
+    
+    /* 隐藏头部中心区域 */
+    .header-center {
+        display: none;
+    }
+    
+    /* 侧边栏调整 */
+    .sidebar-left {
+        width: var(--sidebar-width);
+        flex-shrink: 0;
+    }
+    
+    .sidebar-right {
+        width: var(--sidebar-width);
+        flex-shrink: 0;
+    }
+    
+    /* 聊天区域占满剩余空间 */
+    .chat-area {
+        flex: 1;
+    }
+    
+    /* 聊天区域占满全宽 */
+    .chat-area {
+        width: 100%;
+    }
+    
+    /* 调整消息宽度 */
+    .message-content {
+        max-width: 85%;
+    }
+    
+    /* 欢迎消息调整 */
+    .welcome-message {
+        padding: 24px 16px;
+    }
+    
+    .welcome-features {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    
+    .feature-card {
+        padding: 16px;
+    }
+    
+    /* 模态框调整 */
+    .modal-content {
+        width: 95%;
+        max-height: 85vh;
+        margin: 16px;
+    }
+    
+    /* 设置标签页横向滚动 */
+    .settings-tabs {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .tab-btn {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+    
+    /* 主题选项网格调整 */
+    .theme-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* 布局选项网格调整 */
+    .layout-options {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 移动设备 (<768px) */
+@media screen and (max-width: 767px) {
+    :root {
+        --header-height: 56px;
+        --footer-height: 36px;
+        --sidebar-width: 100%;
+    }
+    
+    /* 头部调整 */
+    .header {
+        padding: 0 12px;
+    }
+    
+    .app-title {
+        font-size: 16px;
+    }
+    
+    .logo-icon {
+        font-size: 24px;
+    }
+    
+    .header-right {
+        gap: 4px;
+    }
+    
+    .btn-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 16px;
+    }
+    
+    /* 侧边栏全屏 */
+    .sidebar-left,
+    .sidebar-right {
+        width: 85%;
+        max-width: 320px;
+    }
+    
+    .sidebar-left {
+        left: -85%;
+    }
+    
+    .sidebar-right {
+        right: -85%;
+    }
+    
+    /* 聊天历史调整 */
+    .chat-history {
+        padding: 16px;
+    }
+    
+    .welcome-message {
+        padding: 16px 12px;
+    }
+    
+    .welcome-icon {
+        font-size: 48px;
+    }
+    
+    .welcome-message h2 {
+        font-size: 20px;
+    }
+    
+    .welcome-subtitle {
+        font-size: 14px;
+    }
+    
+    .welcome-features {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .feature-card {
+        padding: 16px;
+    }
+    
+    .feature-icon {
+        font-size: 28px;
+    }
+    
+    /* 消息调整 */
+    .message {
+        margin-bottom: 16px;
+    }
+    
+    .message-content {
+        max-width: 90%;
+        padding: 12px;
+        font-size: 14px;
+    }
+    
+    /* 输入区域调整 */
+    .input-area {
+        padding: 12px;
+    }
+    
+    .input-toolbar {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .toolbar-divider {
+        display: none;
+    }
+    
+    .input-hint {
+        width: 100%;
+        order: -1;
+        font-size: 12px;
+    }
+    
+    .user-input {
+        min-height: 60px;
+        font-size: 16px; /* 防止iOS缩放 */
+        padding: 12px;
+        padding-bottom: 36px;
+    }
+    
+    .input-actions {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .input-actions button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* 功能按钮调整 */
+    .function-btn {
+        padding: 12px;
+    }
+    
+    .function-icon {
+        font-size: 20px;
+    }
+    
+    .function-name {
+        font-size: 14px;
+    }
+    
+    .function-desc {
+        font-size: 11px;
+    }
+    
+    /* 面板调整 */
+    .panel {
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .panel-title {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    
+    /* 模态框调整 */
+    .modal {
+        padding: 0;
+        align-items: flex-end;
+    }
+    
+    .modal-content {
+        width: 100%;
+        max-height: 90vh;
+        border-radius: 16px 16px 0 0;
+        margin: 0;
+    }
+    
+    .modal-header {
+        padding: 16px;
+    }
+    
+    .modal-header h2 {
+        font-size: 18px;
+    }
+    
+    .modal-body {
+        padding: 16px;
+    }
+    
+    .modal-footer {
+        padding: 12px 16px;
+        flex-direction: column;
+    }
+    
+    .modal-footer button {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* 设置部分调整 */
+    .settings-section {
+        margin-bottom: 24px;
+    }
+    
+    .settings-section h3 {
+        font-size: 14px;
+    }
+    
+    /* 主题选项 */
+    .theme-options {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .theme-option {
+        padding: 8px;
+    }
+    
+    .theme-preview {
+        width: 32px;
+        height: 32px;
+    }
+    
+    /* 布局选项 */
+    .layout-options {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .layout-option {
+        padding: 8px;
+    }
+    
+    .layout-preview {
+        width: 40px;
+        height: 28px;
+    }
+    
+    /* 字体大小选项 */
+    .font-size-options {
+        flex-wrap: wrap;
+    }
+    
+    .font-size-btn {
+        flex: 1;
+        min-width: 60px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    
+    /* 帮助部分调整 */
+    .help-section h3 {
+        font-size: 16px;
+    }
+    
+    .help-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .help-card {
+        padding: 12px;
+    }
+    
+    .shortcuts-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .shortcut-item {
+        padding: 10px 12px;
+    }
+    
+    /* 底部状态栏调整 */
+    .footer {
+        padding: 0 12px;
+        font-size: 11px;
+    }
+    
+    .footer-center {
+        display: none;
+    }
+    
+    /* 提示消息调整 */
+    .toast-container {
+        left: 16px;
+        right: 16px;
+        top: calc(var(--header-height) + 8px);
+    }
+    
+    .toast {
+        min-width: auto;
+        width: 100%;
+    }
+    
+    /* 关于部分调整 */
+    .about-logo .about-icon {
+        font-size: 48px;
+    }
+    
+    .about-logo h3 {
+        font-size: 18px;
+    }
+    
+    .about-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .about-stats {
+        flex-direction: column;
+        gap: 16px;
+    }
+}
+
+/* 小屏手机 (<480px) */
+@media screen and (max-width: 480px) {
+    :root {
+        --header-height: 52px;
+    }
+    
+    .app-title {
+        font-size: 14px;
+    }
+    
+    .logo-icon {
+        font-size: 20px;
+    }
+    
+    /* 进一步简化头部 */
+    .header-right .btn-icon:nth-child(2),
+    .header-right .btn-icon:nth-child(3) {
+        display: none;
+    }
+    
+    /* 消息气泡更宽 */
+    .message-content {
+        max-width: 95%;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    /* 输入框更小 */
+    .user-input {
+        min-height: 50px;
+        font-size: 16px;
+    }
+    
+    /* 功能按钮简化 */
+    .function-btn {
+        padding: 10px;
+    }
+    
+    .function-desc {
+        display: none;
+    }
+    
+    /* 统计信息简化 */
+    .stats-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .stat-item {
+        flex: 1;
+        min-width: 100px;
+        border-bottom: none;
+        border-right: 1px solid var(--border-light);
+        padding: 8px;
+    }
+    
+    .stat-item:last-child {
+        border-right: none;
+    }
+    
+    .stat-label {
+        font-size: 11px;
+    }
+    
+    .stat-value {
+        font-size: 14px;
+    }
+}
+
+/* 横屏模式 */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    :root {
+        --header-height: 48px;
+        --footer-height: 32px;
+    }
+    
+    .welcome-message {
+        padding: 16px;
+    }
+    
+    .welcome-icon {
+        font-size: 36px;
+        margin-bottom: 8px;
+    }
+    
+    .welcome-features {
+        display: none;
+    }
+    
+    .input-area {
+        padding: 8px 16px;
+    }
+    
+    .user-input {
+        min-height: 40px;
+        max-height: 80px;
+    }
+    
+    .sidebar-left,
+    .sidebar-right {
+        height: calc(100vh - var(--header-height) - var(--footer-height));
+    }
+}
+
+/* 打印样式 */
+@media print {
+    .header,
+    .sidebar-left,
+    .sidebar-right,
+    .footer,
+    .input-area,
+    .modal,
+    .toast-container {
+        display: none !important;
+    }
+    
+    .chat-area {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .chat-history {
+        overflow: visible;
+        padding: 20px;
+    }
+    
+    .message {
+        page-break-inside: avoid;
+        margin-bottom: 16px;
+    }
+    
+    .message-content {
+        max-width: 100%;
+        border: 1px solid #ccc;
+    }
+    
+    body {
+        background: white;
+        color: black;
+    }
+}
+
+
+
+/* 减少动画偏好 */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    .loading-spinner {
+        animation: none;
+    }
+    
+    .streaming-cursor {
+        animation: none;
+        opacity: 1;
+    }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #000000;
+        --border-color: #000000;
+        --text-primary: #000000;
+    }
+    
+    .btn-primary {
+        border: 2px solid #000000;
+    }
+    
+    .message-content {
+        border: 2px solid #000000;
+    }
+}
+
+/* 触摸设备优化 */
+@media (hover: none) and (pointer: coarse) {
+    .btn-icon:hover,
+    .btn-primary:hover,
+    .btn-secondary:hover,
+    .function-btn:hover {
+        transform: none;
+    }
+    
+    .function-btn:active,
+    .btn-primary:active,
+    .btn-secondary:active {
+        opacity: 0.8;
+    }
+    
+    /* 增大触摸目标 */
+    .function-btn,
+    .action-btn,
+    .history-item {
+        min-height: 44px;
+    }
+    
+    .toolbar-btn {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* 布局模式 */
+.layout-compact {
+    --sidebar-width: 240px;
+}
+
+.layout-compact .sidebar-right {
+    display: none;
+}
+
+.layout-compact .function-desc {
+    display: none;
+}
+
+.layout-compact .panel {
+    padding: 12px;
+}
+
+.layout-wide .sidebar-left,
+.layout-wide .sidebar-right {
+    display: none;
+}
+
+.layout-focus .sidebar-left,
+.layout-focus .sidebar-right,
+.layout-focus .footer {
+    display: none;
+}
+
+.layout-focus .chat-area {
+    width: 100%;
+}
+
+/* 字体大小调整 */
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-12 .app-title {
+    font-size: 16px;
+}
+
+.font-size-12 .welcome-message h2 {
+    font-size: 18px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-16 .app-title {
+    font-size: 22px;
+}
+
+.font-size-16 .welcome-message h2 {
+    font-size: 26px;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+.font-size-18 .app-title {
+    font-size: 26px;
+}
+
+.font-size-18 .welcome-message h2 {
+    font-size: 30px;
+}
+
+.font-size-18 .message-content {
+    font-size: 16px;
+}

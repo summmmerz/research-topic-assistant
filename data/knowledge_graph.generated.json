@@ -1,0 +1,859 @@
+{
+  "nodes": [
+    {
+      "id": "paper_bacc38598f62",
+      "label": "大语言模型驱动的科研选题辅助系统设计",
+      "title": "大语言模型驱动的科研选题辅助系统设计",
+      "type": "论文",
+      "year": 2026,
+      "summary": "研究将大语言模型、知识图谱和多特征推荐算法结合，用于科研选题辅助。",
+      "abstract": "研究将大语言模型、知识图谱和多特征推荐算法结合，用于科研选题辅助。",
+      "keywords": [
+        "大语言模型",
+        "知识图谱",
+        "科研选题",
+        "推荐系统",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "研究将大语言模型",
+        "知识图谱和多特征推荐算法结合",
+        "用于科研选题辅助"
+      ],
+      "source_id": "thesis-llm-topic-assistant-2026",
+      "source": "metadata_export"
+    },
+    {
+      "id": "author_8e81075b06be",
+      "label": "学生A",
+      "name": "学生A",
+      "type": "作者",
+      "keywords": [
+        "大语言模型",
+        "知识图谱",
+        "科研选题",
+        "推荐系统",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "研究将大语言模型",
+        "知识图谱和多特征推荐算法结合",
+        "用于科研选题辅助"
+      ]
+    },
+    {
+      "id": "author_71dbc969af73",
+      "label": "教师B",
+      "name": "教师B",
+      "type": "作者",
+      "keywords": [
+        "个性化推荐",
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性",
+        "可解释性",
+        "图中心性",
+        "大语言模型",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "推荐系统",
+        "用于科研选题辅助",
+        "知识图谱",
+        "知识图谱和多特征推荐算法结合",
+        "知识图谱增强的个性化科研选题推荐方法",
+        "研究将大语言模型",
+        "科研选题"
+      ]
+    },
+    {
+      "id": "institution_7941f56e5bc2",
+      "label": "对外经济贸易大学",
+      "name": "对外经济贸易大学",
+      "type": "机构",
+      "keywords": [
+        "个性化推荐",
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性",
+        "可解释性",
+        "图中心性",
+        "大语言模型",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "推荐系统",
+        "用于科研选题辅助",
+        "知识图谱",
+        "知识图谱和多特征推荐算法结合",
+        "知识图谱增强的个性化科研选题推荐方法",
+        "研究将大语言模型",
+        "科研选题"
+      ]
+    },
+    {
+      "id": "keyword_fc4b0426b148",
+      "label": "大语言模型",
+      "name": "大语言模型",
+      "type": "关键词",
+      "keywords": [
+        "大语言模型"
+      ]
+    },
+    {
+      "id": "keyword_f111898eb061",
+      "label": "知识图谱",
+      "name": "知识图谱",
+      "type": "关键词",
+      "keywords": [
+        "知识图谱"
+      ]
+    },
+    {
+      "id": "keyword_4ff2159c7ebf",
+      "label": "科研选题",
+      "name": "科研选题",
+      "type": "关键词",
+      "keywords": [
+        "科研选题"
+      ]
+    },
+    {
+      "id": "keyword_17b15d01ae2a",
+      "label": "推荐系统",
+      "name": "推荐系统",
+      "type": "关键词",
+      "keywords": [
+        "推荐系统"
+      ]
+    },
+    {
+      "id": "keyword_090ff8f36f88",
+      "label": "大语言模型驱动的科研选题辅助系统设计",
+      "name": "大语言模型驱动的科研选题辅助系统设计",
+      "type": "关键词",
+      "keywords": [
+        "大语言模型驱动的科研选题辅助系统设计"
+      ]
+    },
+    {
+      "id": "keyword_468d3fef8601",
+      "label": "研究将大语言模型",
+      "name": "研究将大语言模型",
+      "type": "关键词",
+      "keywords": [
+        "研究将大语言模型"
+      ]
+    },
+    {
+      "id": "keyword_645abffea2f1",
+      "label": "知识图谱和多特征推荐算法结合",
+      "name": "知识图谱和多特征推荐算法结合",
+      "type": "关键词",
+      "keywords": [
+        "知识图谱和多特征推荐算法结合"
+      ]
+    },
+    {
+      "id": "keyword_dec986272644",
+      "label": "用于科研选题辅助",
+      "name": "用于科研选题辅助",
+      "type": "关键词",
+      "keywords": [
+        "用于科研选题辅助"
+      ]
+    },
+    {
+      "id": "direction_fc4b0426b148",
+      "label": "大语言模型",
+      "name": "大语言模型",
+      "type": "研究方向",
+      "keywords": [
+        "可解释AI",
+        "大语言模型",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "探讨大模型在文本分析",
+        "推荐系统",
+        "用于科研选题辅助",
+        "知识图谱",
+        "知识图谱和多特征推荐算法结合",
+        "研究将大语言模型",
+        "科研选题",
+        "金融科技",
+        "金融科技风险分析中的大模型辅助决策研究",
+        "面向金融风控场景",
+        "风险控制",
+        "风险识别和解释生成中的应用"
+      ]
+    },
+    {
+      "id": "direction_f111898eb061",
+      "label": "知识图谱",
+      "name": "知识图谱",
+      "type": "研究方向",
+      "keywords": [
+        "个性化推荐",
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性",
+        "可解释性",
+        "图中心性",
+        "大语言模型",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "推荐系统",
+        "用于科研选题辅助",
+        "知识图谱",
+        "知识图谱和多特征推荐算法结合",
+        "知识图谱增强的个性化科研选题推荐方法",
+        "研究将大语言模型",
+        "科研选题"
+      ]
+    },
+    {
+      "id": "direction_17b15d01ae2a",
+      "label": "推荐系统",
+      "name": "推荐系统",
+      "type": "研究方向",
+      "keywords": [
+        "个性化推荐",
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性",
+        "可解释性",
+        "图中心性",
+        "大语言模型",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "推荐系统",
+        "用于科研选题辅助",
+        "知识图谱",
+        "知识图谱和多特征推荐算法结合",
+        "知识图谱增强的个性化科研选题推荐方法",
+        "研究将大语言模型",
+        "科研选题"
+      ]
+    },
+    {
+      "id": "venue_ad8c552cf728",
+      "label": "本科毕业论文",
+      "name": "本科毕业论文",
+      "type": "期刊",
+      "keywords": [
+        "大语言模型",
+        "知识图谱",
+        "科研选题",
+        "推荐系统",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "研究将大语言模型",
+        "知识图谱和多特征推荐算法结合",
+        "用于科研选题辅助"
+      ]
+    },
+    {
+      "id": "fund_b7e70616a79c",
+      "label": "本科毕业设计项目",
+      "name": "本科毕业设计项目",
+      "type": "基金项目",
+      "keywords": [
+        "大语言模型",
+        "知识图谱",
+        "科研选题",
+        "推荐系统",
+        "大语言模型驱动的科研选题辅助系统设计",
+        "研究将大语言模型",
+        "知识图谱和多特征推荐算法结合",
+        "用于科研选题辅助"
+      ]
+    },
+    {
+      "id": "paper_f8a43d32921a",
+      "label": "知识图谱增强的个性化科研选题推荐方法",
+      "title": "知识图谱增强的个性化科研选题推荐方法",
+      "type": "论文",
+      "year": 2025,
+      "summary": "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性。",
+      "abstract": "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性。",
+      "keywords": [
+        "知识图谱",
+        "个性化推荐",
+        "图中心性",
+        "可解释性",
+        "知识图谱增强的个性化科研选题推荐方法",
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性"
+      ],
+      "source_id": "kg-topic-recommendation-2025",
+      "source": "metadata_export"
+    },
+    {
+      "id": "author_5245d3696e56",
+      "label": "研究员C",
+      "name": "研究员C",
+      "type": "作者",
+      "keywords": [
+        "知识图谱",
+        "个性化推荐",
+        "图中心性",
+        "可解释性",
+        "知识图谱增强的个性化科研选题推荐方法",
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性"
+      ]
+    },
+    {
+      "id": "keyword_9f1e3081ac62",
+      "label": "个性化推荐",
+      "name": "个性化推荐",
+      "type": "关键词",
+      "keywords": [
+        "个性化推荐"
+      ]
+    },
+    {
+      "id": "keyword_d0a1472dfa53",
+      "label": "图中心性",
+      "name": "图中心性",
+      "type": "关键词",
+      "keywords": [
+        "图中心性"
+      ]
+    },
+    {
+      "id": "keyword_b32a0124b390",
+      "label": "可解释性",
+      "name": "可解释性",
+      "type": "关键词",
+      "keywords": [
+        "可解释性"
+      ]
+    },
+    {
+      "id": "keyword_b491517ac5c9",
+      "label": "知识图谱增强的个性化科研选题推荐方法",
+      "name": "知识图谱增强的个性化科研选题推荐方法",
+      "type": "关键词",
+      "keywords": [
+        "知识图谱增强的个性化科研选题推荐方法"
+      ]
+    },
+    {
+      "id": "keyword_370a4fc3cb04",
+      "label": "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性",
+      "name": "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性",
+      "type": "关键词",
+      "keywords": [
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性"
+      ]
+    },
+    {
+      "id": "venue_6a0c24f977fe",
+      "label": "智能教育研究",
+      "name": "智能教育研究",
+      "type": "期刊",
+      "keywords": [
+        "知识图谱",
+        "个性化推荐",
+        "图中心性",
+        "可解释性",
+        "知识图谱增强的个性化科研选题推荐方法",
+        "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性"
+      ]
+    },
+    {
+      "id": "paper_400f96cec61c",
+      "label": "金融科技风险分析中的大模型辅助决策研究",
+      "title": "金融科技风险分析中的大模型辅助决策研究",
+      "type": "论文",
+      "year": 2024,
+      "summary": "面向金融风控场景，探讨大模型在文本分析、风险识别和解释生成中的应用。",
+      "abstract": "面向金融风控场景，探讨大模型在文本分析、风险识别和解释生成中的应用。",
+      "keywords": [
+        "金融科技",
+        "大语言模型",
+        "风险控制",
+        "可解释AI",
+        "金融科技风险分析中的大模型辅助决策研究",
+        "面向金融风控场景",
+        "探讨大模型在文本分析",
+        "风险识别和解释生成中的应用"
+      ],
+      "source_id": "fintech-llm-risk-2024",
+      "source": "metadata_export"
+    },
+    {
+      "id": "author_34692801c8b3",
+      "label": "研究员D",
+      "name": "研究员D",
+      "type": "作者",
+      "keywords": [
+        "金融科技",
+        "大语言模型",
+        "风险控制",
+        "可解释AI",
+        "金融科技风险分析中的大模型辅助决策研究",
+        "面向金融风控场景",
+        "探讨大模型在文本分析",
+        "风险识别和解释生成中的应用"
+      ]
+    },
+    {
+      "id": "institution_bc1748c0aa94",
+      "label": "金融科技实验室",
+      "name": "金融科技实验室",
+      "type": "机构",
+      "keywords": [
+        "金融科技",
+        "大语言模型",
+        "风险控制",
+        "可解释AI",
+        "金融科技风险分析中的大模型辅助决策研究",
+        "面向金融风控场景",
+        "探讨大模型在文本分析",
+        "风险识别和解释生成中的应用"
+      ]
+    },
+    {
+      "id": "keyword_d16d2ed96864",
+      "label": "金融科技",
+      "name": "金融科技",
+      "type": "关键词",
+      "keywords": [
+        "金融科技"
+      ]
+    },
+    {
+      "id": "keyword_7f55eec78143",
+      "label": "风险控制",
+      "name": "风险控制",
+      "type": "关键词",
+      "keywords": [
+        "风险控制"
+      ]
+    },
+    {
+      "id": "keyword_0ffae0b219f1",
+      "label": "可解释AI",
+      "name": "可解释AI",
+      "type": "关键词",
+      "keywords": [
+        "可解释AI"
+      ]
+    },
+    {
+      "id": "keyword_e1988c232468",
+      "label": "金融科技风险分析中的大模型辅助决策研究",
+      "name": "金融科技风险分析中的大模型辅助决策研究",
+      "type": "关键词",
+      "keywords": [
+        "金融科技风险分析中的大模型辅助决策研究"
+      ]
+    },
+    {
+      "id": "keyword_57807f0c3eb6",
+      "label": "面向金融风控场景",
+      "name": "面向金融风控场景",
+      "type": "关键词",
+      "keywords": [
+        "面向金融风控场景"
+      ]
+    },
+    {
+      "id": "keyword_ae9c70aa9ee8",
+      "label": "探讨大模型在文本分析",
+      "name": "探讨大模型在文本分析",
+      "type": "关键词",
+      "keywords": [
+        "探讨大模型在文本分析"
+      ]
+    },
+    {
+      "id": "keyword_644217ea955b",
+      "label": "风险识别和解释生成中的应用",
+      "name": "风险识别和解释生成中的应用",
+      "type": "关键词",
+      "keywords": [
+        "风险识别和解释生成中的应用"
+      ]
+    },
+    {
+      "id": "direction_d16d2ed96864",
+      "label": "金融科技",
+      "name": "金融科技",
+      "type": "研究方向",
+      "keywords": [
+        "金融科技",
+        "大语言模型",
+        "风险控制",
+        "可解释AI",
+        "金融科技风险分析中的大模型辅助决策研究",
+        "面向金融风控场景",
+        "探讨大模型在文本分析",
+        "风险识别和解释生成中的应用"
+      ]
+    },
+    {
+      "id": "venue_b8bcfd30e657",
+      "label": "金融工程评论",
+      "name": "金融工程评论",
+      "type": "期刊",
+      "keywords": [
+        "金融科技",
+        "大语言模型",
+        "风险控制",
+        "可解释AI",
+        "金融科技风险分析中的大模型辅助决策研究",
+        "面向金融风控场景",
+        "探讨大模型在文本分析",
+        "风险识别和解释生成中的应用"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "author_8e81075b06be",
+      "target": "paper_bacc38598f62",
+      "relation": "WROTE"
+    },
+    {
+      "source": "author_71dbc969af73",
+      "target": "paper_bacc38598f62",
+      "relation": "WROTE"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "institution_7941f56e5bc2",
+      "relation": "AFFILIATED_WITH"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_fc4b0426b148",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_f111898eb061",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_4ff2159c7ebf",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_17b15d01ae2a",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_090ff8f36f88",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_468d3fef8601",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_645abffea2f1",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "keyword_dec986272644",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "direction_fc4b0426b148",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "keyword_fc4b0426b148",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_f111898eb061",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_4ff2159c7ebf",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_17b15d01ae2a",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_090ff8f36f88",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "direction_f111898eb061",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "keyword_fc4b0426b148",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_f111898eb061",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_4ff2159c7ebf",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_17b15d01ae2a",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_090ff8f36f88",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "direction_17b15d01ae2a",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "keyword_fc4b0426b148",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_f111898eb061",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_4ff2159c7ebf",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_17b15d01ae2a",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_090ff8f36f88",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "venue_ad8c552cf728",
+      "relation": "PUBLISHED_IN"
+    },
+    {
+      "source": "paper_bacc38598f62",
+      "target": "fund_b7e70616a79c",
+      "relation": "FUNDED_BY"
+    },
+    {
+      "source": "author_71dbc969af73",
+      "target": "paper_f8a43d32921a",
+      "relation": "WROTE"
+    },
+    {
+      "source": "author_5245d3696e56",
+      "target": "paper_f8a43d32921a",
+      "relation": "WROTE"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "institution_7941f56e5bc2",
+      "relation": "AFFILIATED_WITH"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "keyword_f111898eb061",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "keyword_9f1e3081ac62",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "keyword_d0a1472dfa53",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "keyword_b32a0124b390",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "keyword_b491517ac5c9",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "keyword_370a4fc3cb04",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "direction_f111898eb061",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "keyword_9f1e3081ac62",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_d0a1472dfa53",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_b32a0124b390",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_b491517ac5c9",
+      "target": "direction_f111898eb061",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "direction_17b15d01ae2a",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "keyword_9f1e3081ac62",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_d0a1472dfa53",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_b32a0124b390",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_b491517ac5c9",
+      "target": "direction_17b15d01ae2a",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "paper_f8a43d32921a",
+      "target": "venue_6a0c24f977fe",
+      "relation": "PUBLISHED_IN"
+    },
+    {
+      "source": "author_34692801c8b3",
+      "target": "paper_400f96cec61c",
+      "relation": "WROTE"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "institution_bc1748c0aa94",
+      "relation": "AFFILIATED_WITH"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_d16d2ed96864",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_fc4b0426b148",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_7f55eec78143",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_0ffae0b219f1",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_e1988c232468",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_57807f0c3eb6",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_ae9c70aa9ee8",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "keyword_644217ea955b",
+      "relation": "HAS_KEYWORD"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "direction_d16d2ed96864",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "keyword_d16d2ed96864",
+      "target": "direction_d16d2ed96864",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_fc4b0426b148",
+      "target": "direction_d16d2ed96864",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_7f55eec78143",
+      "target": "direction_d16d2ed96864",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_0ffae0b219f1",
+      "target": "direction_d16d2ed96864",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_e1988c232468",
+      "target": "direction_d16d2ed96864",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "direction_fc4b0426b148",
+      "relation": "BELONGS_TO"
+    },
+    {
+      "source": "keyword_d16d2ed96864",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_7f55eec78143",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_0ffae0b219f1",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "keyword_e1988c232468",
+      "target": "direction_fc4b0426b148",
+      "relation": "RELATED_TO"
+    },
+    {
+      "source": "paper_400f96cec61c",
+      "target": "venue_b8bcfd30e657",
+      "relation": "PUBLISHED_IN"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试 JavaScript</title>
+</head>
+<body>
+    <h1>测试 JavaScript</h1>
+    <div id="test-div">点击按钮测试 JavaScript</div>
+    <button onclick="testFunction()">测试</button>
+    
+    <script>
+        console.log('=== JavaScript code started ===');
+        
+        function testFunction() {
+            console.log('=== testFunction() called ===');
+            document.getElementById('test-div').innerHTML = 'JavaScript 执行成功！';
+        }
+        
+        console.log('=== JavaScript code loaded ===');
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "papers": [
+    {
+      "title": "大语言模型驱动的科研选题辅助系统设计",
+      "authors": ["学生A", "教师B"],
+      "institution": ["对外经济贸易大学"],
+      "keywords": ["大语言模型", "知识图谱", "科研选题", "推荐系统"],
+      "research_directions": ["大语言模型", "知识图谱", "推荐系统"],
+      "year": 2026,
+      "venue": "本科毕业论文",
+      "abstract": "研究将大语言模型、知识图谱和多特征推荐算法结合，用于科研选题辅助。",
+      "doi": "thesis-llm-topic-assistant-2026",
+      "funds": ["本科毕业设计项目"]
+    },
+    {
+      "title": "知识图谱增强的个性化科研选题推荐方法",
+      "authors": ["教师B", "研究员C"],
+      "institution": ["对外经济贸易大学"],
+      "keywords": ["知识图谱", "个性化推荐", "图中心性", "可解释性"],
+      "research_directions": ["知识图谱", "推荐系统"],
+      "year": 2025,
+      "venue": "智能教育研究",
+      "abstract": "利用图结构中心性和用户兴趣语义相似度提升科研选题推荐的可解释性。",
+      "doi": "kg-topic-recommendation-2025"
+    },
+    {
+      "title": "金融科技风险分析中的大模型辅助决策研究",
+      "authors": ["研究员D"],
+      "institution": ["金融科技实验室"],
+      "keywords": ["金融科技", "大语言模型", "风险控制", "可解释AI"],
+      "research_directions": ["金融科技", "大语言模型"],
+      "year": 2024,
+      "venue": "金融工程评论",
+      "abstract": "面向金融风控场景，探讨大模型在文本分析、风险识别和解释生成中的应用。",
+      "doi": "fintech-llm-risk-2024"
+    }
+  ]
+}

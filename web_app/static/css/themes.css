@@ -1,0 +1,580 @@
+/* ========================================
+   智能科研选题助手 - 主题样式表
+   ======================================== */
+
+/* 深色主题 */
+.theme-dark {
+    --primary-color: #5a9fd4;
+    --primary-hover: #4a8fc4;
+    --primary-light: rgba(90, 159, 212, 0.15);
+    --secondary-color: #6c757d;
+    --secondary-hover: #545b62;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    
+    --bg-primary: #1a1a2e;
+    --bg-secondary: #16213e;
+    --bg-tertiary: #0f3460;
+    --bg-sidebar: #1a1a2e;
+    --bg-hover: rgba(255, 255, 255, 0.05);
+    
+    --text-primary: #eaeaea;
+    --text-secondary: #a0a0a0;
+    --text-muted: #6c757d;
+    --text-inverse: #1a1a2e;
+    
+    --border-color: #2d2d44;
+    --border-light: #3d3d5c;
+    
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.4);
+}
+
+.theme-dark .loading-overlay {
+    background: var(--bg-primary);
+}
+
+.theme-dark .message-assistant .message-content {
+    background: #2d2d44;
+    border-color: #3d3d5c;
+    color: #eaeaea;
+}
+
+.theme-dark .user-input {
+    background: #1a1a2e;
+    color: #eaeaea;
+    border-color: #3d3d5c;
+}
+
+.theme-dark .user-input:focus {
+    border-color: #5a9fd4;
+    box-shadow: 0 0 0 3px rgba(90, 159, 212, 0.2);
+}
+
+.theme-dark .function-btn {
+    background: #2d2d44;
+    color: #eaeaea;
+}
+
+.theme-dark .function-btn:hover {
+    background: #3d3d5c;
+    border-color: #5a9fd4;
+}
+
+.theme-dark .history-item {
+    background: #2d2d44;
+    color: #eaeaea;
+}
+
+.theme-dark .history-item:hover {
+    background: #3d3d5c;
+}
+
+.theme-dark .shortcut-item {
+    background: #2d2d44;
+}
+
+.theme-dark .shortcut-key {
+    background: #3d3d5c;
+    border-color: #4d4d6c;
+    color: #eaeaea;
+}
+
+.theme-dark .feature-card,
+.theme-dark .help-card {
+    background: #2d2d44;
+}
+
+.theme-dark .welcome-hint {
+    background: rgba(90, 159, 212, 0.15);
+}
+
+.theme-dark .setting-input,
+.theme-dark .setting-select {
+    background: #2d2d44;
+    color: #eaeaea;
+    border-color: #3d3d5c;
+}
+
+.theme-dark .theme-option,
+.theme-dark .layout-option {
+    background: #2d2d44;
+}
+
+/* 蓝色主题 */
+.theme-blue {
+    --primary-color: #2196f3;
+    --primary-hover: #1976d2;
+    --primary-light: rgba(33, 150, 243, 0.1);
+    --secondary-color: #64b5f6;
+    --secondary-hover: #42a5f5;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --info-color: #00bcd4;
+    
+    --bg-primary: #e3f2fd;
+    --bg-secondary: #bbdefb;
+    --bg-tertiary: #90caf9;
+    --bg-sidebar: #e3f2fd;
+    
+    --text-primary: #1565c0;
+    --text-secondary: #1976d2;
+    --text-muted: #757575;
+    --text-inverse: #ffffff;
+    
+    --border-color: #90caf9;
+    --border-light: #bbdefb;
+    
+    --shadow-sm: 0 1px 3px rgba(33, 150, 243, 0.1);
+    --shadow-md: 0 4px 6px rgba(33, 150, 243, 0.15);
+    --shadow-lg: 0 10px 15px rgba(33, 150, 243, 0.2);
+    --shadow-xl: 0 20px 25px rgba(33, 150, 243, 0.25);
+}
+
+.theme-blue .app-title {
+    color: #1565c0;
+}
+
+.theme-blue .panel-title {
+    border-bottom-color: #2196f3;
+}
+
+.theme-blue .welcome-message h2 {
+    color: #1565c0;
+}
+
+.theme-blue .message-user .message-content {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+}
+
+.theme-blue .function-btn.active {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+}
+
+.theme-blue .btn-primary {
+    background: linear-gradient(135deg, #2196f3, #1976d2);
+}
+
+.theme-blue .btn-primary:hover {
+    background: linear-gradient(135deg, #1976d2, #1565c0);
+}
+
+.theme-blue .welcome-hint {
+    background: rgba(33, 150, 243, 0.1);
+}
+
+.theme-blue .welcome-hint p {
+    color: #1565c0;
+}
+
+/* 绿色主题 */
+.theme-green {
+    --primary-color: #4caf50;
+    --primary-hover: #388e3c;
+    --primary-light: rgba(76, 175, 80, 0.1);
+    --secondary-color: #81c784;
+    --secondary-hover: #66bb6a;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --info-color: #00bcd4;
+    
+    --bg-primary: #e8f5e8;
+    --bg-secondary: #c8e6c9;
+    --bg-tertiary: #a5d6a7;
+    --bg-sidebar: #e8f5e8;
+    
+    --text-primary: #2e7d32;
+    --text-secondary: #388e3c;
+    --text-muted: #757575;
+    --text-inverse: #ffffff;
+    
+    --border-color: #a5d6a7;
+    --border-light: #c8e6c9;
+    
+    --shadow-sm: 0 1px 3px rgba(76, 175, 80, 0.1);
+    --shadow-md: 0 4px 6px rgba(76, 175, 80, 0.15);
+    --shadow-lg: 0 10px 15px rgba(76, 175, 80, 0.2);
+    --shadow-xl: 0 20px 25px rgba(76, 175, 80, 0.25);
+}
+
+.theme-green .app-title {
+    color: #2e7d32;
+}
+
+.theme-green .panel-title {
+    border-bottom-color: #4caf50;
+}
+
+.theme-green .welcome-message h2 {
+    color: #2e7d32;
+}
+
+.theme-green .message-user .message-content {
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+}
+
+.theme-green .function-btn.active {
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+}
+
+.theme-green .btn-primary {
+    background: linear-gradient(135deg, #4caf50, #388e3c);
+}
+
+.theme-green .btn-primary:hover {
+    background: linear-gradient(135deg, #388e3c, #2e7d32);
+}
+
+.theme-green .welcome-hint {
+    background: rgba(76, 175, 80, 0.1);
+}
+
+.theme-green .welcome-hint p {
+    color: #2e7d32;
+}
+
+/* 紫色主题 */
+.theme-purple {
+    --primary-color: #9c27b0;
+    --primary-hover: #7b1fa2;
+    --primary-light: rgba(156, 39, 176, 0.1);
+    --secondary-color: #ba68c8;
+    --secondary-hover: #ab47bc;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --info-color: #00bcd4;
+    
+    --bg-primary: #f3e5f5;
+    --bg-secondary: #e1bee7;
+    --bg-tertiary: #ce93d8;
+    --bg-sidebar: #f3e5f5;
+    
+    --text-primary: #6a1b9a;
+    --text-secondary: #7b1fa2;
+    --text-muted: #9e9e9e;
+    --text-inverse: #ffffff;
+    
+    --border-color: #ce93d8;
+    --border-light: #e1bee7;
+    
+    --shadow-sm: 0 1px 3px rgba(156, 39, 176, 0.1);
+    --shadow-md: 0 4px 6px rgba(156, 39, 176, 0.15);
+    --shadow-lg: 0 10px 15px rgba(156, 39, 176, 0.2);
+    --shadow-xl: 0 20px 25px rgba(156, 39, 176, 0.25);
+}
+
+.theme-purple .app-title {
+    color: #6a1b9a;
+}
+
+.theme-purple .panel-title {
+    border-bottom-color: #9c27b0;
+}
+
+.theme-purple .welcome-message h2 {
+    color: #6a1b9a;
+}
+
+.theme-purple .message-user .message-content {
+    background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+}
+
+.theme-purple .function-btn.active {
+    background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+}
+
+.theme-purple .btn-primary {
+    background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+}
+
+.theme-purple .btn-primary:hover {
+    background: linear-gradient(135deg, #7b1fa2, #6a1b9a);
+}
+
+.theme-purple .welcome-hint {
+    background: rgba(156, 39, 176, 0.1);
+}
+
+.theme-purple .welcome-hint p {
+    color: #6a1b9a;
+}
+
+/* 橙色主题 */
+.theme-orange {
+    --primary-color: #ff9800;
+    --primary-hover: #f57c00;
+    --primary-light: rgba(255, 152, 0, 0.1);
+    --secondary-color: #ffb74d;
+    --secondary-hover: #ffa726;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --info-color: #00bcd4;
+    
+    --bg-primary: #fff3e0;
+    --bg-secondary: #ffe0b2;
+    --bg-tertiary: #ffcc80;
+    --bg-sidebar: #fff3e0;
+    
+    --text-primary: #e65100;
+    --text-secondary: #f57c00;
+    --text-muted: #9e9e9e;
+    --text-inverse: #ffffff;
+    
+    --border-color: #ffcc80;
+    --border-light: #ffe0b2;
+    
+    --shadow-sm: 0 1px 3px rgba(255, 152, 0, 0.1);
+    --shadow-md: 0 4px 6px rgba(255, 152, 0, 0.15);
+    --shadow-lg: 0 10px 15px rgba(255, 152, 0, 0.2);
+    --shadow-xl: 0 20px 25px rgba(255, 152, 0, 0.25);
+}
+
+.theme-orange .app-title {
+    color: #e65100;
+}
+
+.theme-orange .panel-title {
+    border-bottom-color: #ff9800;
+}
+
+.theme-orange .welcome-message h2 {
+    color: #e65100;
+}
+
+.theme-orange .message-user .message-content {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+}
+
+.theme-orange .function-btn.active {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+}
+
+.theme-orange .btn-primary {
+    background: linear-gradient(135deg, #ff9800, #f57c00);
+}
+
+.theme-orange .btn-primary:hover {
+    background: linear-gradient(135deg, #f57c00, #e65100);
+}
+
+.theme-orange .welcome-hint {
+    background: rgba(255, 152, 0, 0.1);
+}
+
+.theme-orange .welcome-hint p {
+    color: #e65100;
+}
+
+/* 粉色主题 */
+.theme-pink {
+    --primary-color: #e91e63;
+    --primary-hover: #c2185b;
+    --primary-light: rgba(233, 30, 99, 0.1);
+    --secondary-color: #f06292;
+    --secondary-hover: #ec407a;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --danger-color: #f44336;
+    --info-color: #00bcd4;
+    
+    --bg-primary: #fce4ec;
+    --bg-secondary: #f8bbd9;
+    --bg-tertiary: #f48fb1;
+    --bg-sidebar: #fce4ec;
+    
+    --text-primary: #c2185b;
+    --text-secondary: #d81b60;
+    --text-muted: #9e9e9e;
+    --text-inverse: #ffffff;
+    
+    --border-color: #f48fb1;
+    --border-light: #f8bbd9;
+    
+    --shadow-sm: 0 1px 3px rgba(233, 30, 99, 0.1);
+    --shadow-md: 0 4px 6px rgba(233, 30, 99, 0.15);
+    --shadow-lg: 0 10px 15px rgba(233, 30, 99, 0.2);
+    --shadow-xl: 0 20px 25px rgba(233, 30, 99, 0.25);
+}
+
+.theme-pink .app-title {
+    color: #c2185b;
+}
+
+.theme-pink .panel-title {
+    border-bottom-color: #e91e63;
+}
+
+.theme-pink .welcome-message h2 {
+    color: #c2185b;
+}
+
+.theme-pink .message-user .message-content {
+    background: linear-gradient(135deg, #e91e63, #c2185b);
+}
+
+.theme-pink .function-btn.active {
+    background: linear-gradient(135deg, #e91e63, #c2185b);
+}
+
+.theme-pink .btn-primary {
+    background: linear-gradient(135deg, #e91e63, #c2185b);
+}
+
+.theme-pink .btn-primary:hover {
+    background: linear-gradient(135deg, #c2185b, #ad1457);
+}
+
+.theme-pink .welcome-hint {
+    background: rgba(233, 30, 99, 0.1);
+}
+
+.theme-pink .welcome-hint p {
+    color: #c2185b;
+}
+
+/* 高对比度主题（无障碍） */
+.theme-high-contrast {
+    --primary-color: #000000;
+    --primary-hover: #000000;
+    --primary-light: #ffffff;
+    --secondary-color: #000000;
+    --secondary-hover: #000000;
+    --success-color: #008000;
+    --warning-color: #ffa500;
+    --danger-color: #ff0000;
+    --info-color: #0000ff;
+    
+    --bg-primary: #ffffff;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #f0f0f0;
+    --bg-sidebar: #ffffff;
+    --bg-hover: #000000;
+    
+    --text-primary: #000000;
+    --text-secondary: #000000;
+    --text-muted: #333333;
+    --text-inverse: #ffffff;
+    
+    --border-color: #000000;
+    --border-light: #000000;
+    
+    --shadow-sm: 0 0 0 1px #000000;
+    --shadow-md: 0 0 0 2px #000000;
+    --shadow-lg: 0 0 0 3px #000000;
+    --shadow-xl: 0 0 0 4px #000000;
+}
+
+.theme-high-contrast .message-user .message-content {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.theme-high-contrast .message-assistant .message-content {
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.theme-high-contrast .function-btn.active {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.theme-high-contrast .btn-primary {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #000000;
+}
+
+.theme-high-contrast .btn-secondary {
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.theme-high-contrast .panel {
+    border: 2px solid #000000;
+}
+
+.theme-high-contrast .user-input {
+    border: 2px solid #000000;
+}
+
+.theme-high-contrast .user-input:focus {
+    outline: 3px solid #0000ff;
+    outline-offset: 2px;
+}
+
+/* 毛玻璃效果主题 */
+.theme-glass {
+    --primary-color: rgba(74, 144, 226, 0.9);
+    --primary-hover: rgba(53, 122, 189, 0.9);
+    --primary-light: rgba(74, 144, 226, 0.2);
+}
+
+.theme-glass .header,
+.theme-glass .sidebar-left,
+.theme-glass .sidebar-right,
+.theme-glass .footer {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.theme-glass.theme-dark .header,
+.theme-glass.theme-dark .sidebar-left,
+.theme-glass.theme-dark .sidebar-right,
+.theme-glass.theme-dark .footer {
+    background: rgba(26, 26, 46, 0.8);
+}
+
+.theme-glass .panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.theme-glass.theme-dark .panel {
+    background: rgba(45, 45, 68, 0.7);
+}
+
+/* 动态渐变主题 */
+.theme-gradient {
+    --primary-color: #667eea;
+    --primary-hover: #5a67d8;
+    --primary-light: rgba(102, 126, 234, 0.1);
+}
+
+.theme-gradient .message-user .message-content {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.theme-gradient .function-btn.active {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.theme-gradient .btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* 主题切换动画 */
+body {
+    transition: background-color var(--transition-base), color var(--transition-base);
+}
+
+.panel, .message-content, .function-btn, .btn-primary, .btn-secondary {
+    transition: background-color var(--transition-base), 
+                border-color var(--transition-base), 
+                color var(--transition-base),
+                box-shadow var(--transition-base);
+}

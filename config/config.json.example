@@ -1,0 +1,85 @@
+{
+  "system": {
+    "name": "智能科研选题助手",
+    "version": "1.0.0",
+    "description": "基于大模型的智能科研选题助手",
+    "debug": false
+  },
+  "core_agent": {
+    "timeout": 30,
+    "retry_count": 3
+  },
+  "context_manager": {
+    "max_history_length": 10,
+    "max_context_depth": 5,
+    "save_interval": 300,
+    "context_file": "data/contexts/contexts.json",
+    "auto_save": true,
+    "auto_load": true,
+    "storage_backend": "redis",
+    "redis": {
+      "url": "redis://localhost:6379/0",
+      "context_ttl_seconds": 86400,
+      "cache_ttl_seconds": 3600
+    }
+  },
+  "neo4j": {
+    "uri": "bolt://localhost:7687",
+    "username": "neo4j",
+    "password": "your_neo4j_password",
+    "database": "neo4j"
+  },
+  "redis": {
+    "url": "redis://localhost:6379/0",
+    "context_ttl_seconds": 86400,
+    "cache_ttl_seconds": 3600
+  },
+  "topic_recommendation": {
+    "session_storage": "redis"
+  },
+  "model_router": {
+    "main_model": {
+      "provider": "deepseek",
+      "api_key": "your_deepseek_api_key",
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/v1/chat/completions"
+    },
+    "assistant_model": {
+      "provider": "deepseek",
+      "api_key": "your_deepseek_api_key",
+      "model": "deepseek-chat",
+      "base_url": "https://api.deepseek.com/v1/chat/completions"
+    },
+    "timeout": 30,
+    "retry_count": 3
+  },
+  "document_retriever": {
+    "document_dir": "data/documents",
+    "index_file": "data/document_index.json",
+    "max_results": 5,
+    "min_similarity": 0.1,
+    "auto_build_index": false,
+    "supported_extensions": [".txt", ".md", ".json"]
+  },
+  "response_generator": {
+    "max_response_length": 2048,
+    "min_response_length": 10,
+    "response_timeout": 30
+  },
+  "error_handler": {
+    "error_log_file": "data/error_log.json",
+    "max_error_logs": 1000,
+    "error_threshold": 10,
+    "error_window": 60,
+    "retry_delay": 1,
+    "max_retries": 3
+  },
+  "log_manager": {
+    "log_dir": "data/logs",
+    "log_file": "data/logs/agent.log",
+    "log_level": "INFO",
+    "log_rotation": "daily",
+    "max_bytes": 10485760,
+    "backup_count": 7
+  }
+}

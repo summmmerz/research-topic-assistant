@@ -1,0 +1,38 @@
+[
+  {
+    "topic_key": "agent_workflow_evaluation",
+    "title": "科研智能体工作流评估与优化",
+    "domain": "计算机科学",
+    "subdomain": "人工智能",
+    "keywords": ["科研智能体", "工作流", "科研辅助", "评估指标"],
+    "hotness": 0.84,
+    "novelty": 0.79,
+    "centrality": 0.76,
+    "description": "构建科研智能体的任务拆解、工具调用与效果评估体系。",
+    "source": "seed_file"
+  },
+  {
+    "topic_key": "topic_feedback_optimization",
+    "title": "基于用户反馈闭环的选题推荐优化",
+    "domain": "计算机科学",
+    "subdomain": "推荐系统",
+    "keywords": ["反馈闭环", "选题推荐", "排序优化", "用户行为"],
+    "hotness": 0.82,
+    "novelty": 0.8,
+    "centrality": 0.72,
+    "description": "记录点击、收藏和忽略行为，用于持续优化推荐排序。",
+    "source": "seed_file"
+  },
+  {
+    "topic_key": "financial_llm_risk_control",
+    "title": "面向金融风控的大模型辅助分析",
+    "domain": "金融学",
+    "subdomain": "金融科技",
+    "keywords": ["金融风控", "大语言模型", "可解释性", "风险分析"],
+    "hotness": 0.78,
+    "novelty": 0.75,
+    "centrality": 0.7,
+    "description": "探索大模型在金融风险识别、解释与辅助决策中的应用边界。",
+    "source": "seed_file"
+  }
+]
