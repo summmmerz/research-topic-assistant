@@ -3,7 +3,7 @@
 ## 1. 启动 Flask 后端
 
 ```powershell
-cd D:\bishe\project
+cd research-topic-assistant   # 换成你的克隆目录
 python web_app\run.py --host 127.0.0.1 -p 5000 --no-check
 ```
 
@@ -30,7 +30,7 @@ python web_app\run.py --host 127.0.0.1 -p 5000 --no-check
 ## 3. 构建 Vue 页面
 
 ```powershell
-cd D:\bishe\project\frontend
+cd frontend
 npm install
 npm run build
 ```

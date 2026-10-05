@@ -349,9 +349,8 @@ curl -X POST http://localhost:5000/api/kg/export/json -H "Content-Type: applicat
 
 ## 联系方式
 
-- 项目地址：<项目仓库地址>
-- 问题反馈：<issue地址>
-- 技术支持：<联系邮箱>
+- 项目地址：<https://github.com/summmmerz/research-topic-assistant>
+- 问题反馈：<https://github.com/summmmerz/research-topic-assistant/issues>
 
 ---
 

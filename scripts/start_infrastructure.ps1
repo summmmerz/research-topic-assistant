@@ -1,5 +1,5 @@
 param(
-    [string]$Neo4jHome = "D:\bishe\tools\neo4j-community-2026.04.0"
+    [string]$Neo4jHome = $env:NEO4J_HOME
 )
 
 $ErrorActionPreference = "Stop"
@@ -28,13 +28,21 @@ function Start-NamedService {
 $redisStarted = Start-NamedService -Name "Redis" -DisplayName "Redis"
 
 if ($redisStarted) {
-    $redisCli = "C:\Program Files\Redis\redis-cli.exe"
-    if (Test-Path $redisCli) {
+    $redisCli = $env:REDIS_CLI
+    if (-not $redisCli) {
+        $cmd = Get-Command redis-cli -ErrorAction SilentlyContinue
+        if ($cmd) { $redisCli = $cmd.Source }
+    }
+    if ($redisCli -and (Test-Path $redisCli)) {
         & $redisCli ping
     }
 }
 
 $neo4jStarted = Start-NamedService -Name "neo4j" -DisplayName "Neo4j"
+
+if (-not $Neo4jHome) {
+    throw "Neo4jHome is not set. Pass -Neo4jHome <dir> or set the NEO4J_HOME environment variable."
+}
 
 if (-not $neo4jStarted) {
     $neo4jBat = Join-Path $Neo4jHome "bin\neo4j.bat"
